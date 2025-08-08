@@ -10,6 +10,7 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo">
+            <img src="/logo.jpeg" alt="Steve Reacher Logo" className="logo-img" />
             <h2>Steve Reacher</h2>
           </div>
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
@@ -43,12 +44,12 @@ function App() {
             </div>
           </div>
           <div className="hero-image">
-            <div className="gaming-avatar">
-              <div className="avatar-circle">
-                <span className="avatar-text">SR</span>
-              </div>
-            </div>
-          </div>
+             <div className="gaming-avatar">
+               <div className="avatar-circle">
+                 <img src="/logo.jpeg" alt="Steve Reacher" className="hero-logo" />
+               </div>
+             </div>
+           </div>
         </div>
       </section>
 
